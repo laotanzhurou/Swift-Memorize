@@ -1,0 +1,1 @@
+This is my implemenation of assignments + lecture content covered in open course [CS193p](https://cs193p.sites.stanford.edu/), it is a wonderful resource to learn SwiftUI for beginers, nice job Stanford!

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA5B9ED826A2EBC900CD231F /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = DA5B9ED726A2EBC900CD231F /* Notes.md */; };
+		DA5B9EDA26A3E1C800CD231F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA5B9ED926A3E1C800CD231F /* README.md */; };
 		DAD83E4E269AD9BA00079BAE /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD83E4D269AD9BA00079BAE /* MemorizeApp.swift */; };
 		DAD83E50269AD9BA00079BAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD83E4F269AD9BA00079BAE /* ContentView.swift */; };
 		DAD83E52269AD9BC00079BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD83E51269AD9BC00079BAE /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		DA5B9ED726A2EBC900CD231F /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		DA5B9ED926A3E1C800CD231F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DAD83E4A269AD9BA00079BAE /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD83E4D269AD9BA00079BAE /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		DAD83E4F269AD9BA00079BAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		DAD83E41269AD9BA00079BAE = {
 			isa = PBXGroup;
 			children = (
+				DA5B9ED926A3E1C800CD231F /* README.md */,
 				DA5B9ED726A2EBC900CD231F /* Notes.md */,
 				DAD83E4C269AD9BA00079BAE /* Memorize */,
 				DAD83E4B269AD9BA00079BAE /* Products */,
@@ -131,6 +134,7 @@
 			files = (
 				DAD83E55269AD9BC00079BAE /* Preview Assets.xcassets in Resources */,
 				DAD83E52269AD9BC00079BAE /* Assets.xcassets in Resources */,
+				DA5B9EDA26A3E1C800CD231F /* README.md in Resources */,
 				DA5B9ED826A2EBC900CD231F /* Notes.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
