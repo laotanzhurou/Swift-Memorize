@@ -84,13 +84,11 @@ struct ContentView: View {
         let buttonTheme = "🚗"
         return Button(action: {
             emojiTheme = buttonTheme
-            var shuffledEmojis = emojis[buttonTheme] ?? []
-            shuffledEmojis.shuffle()
-            emojis[emojiTheme] = shuffledEmojis
+            emojis[emojiTheme] = (emojis[buttonTheme] ?? []).shuffled()
         }, label: {
             VStack {
-                Text("Cars").font(.footnote)
                 Text(buttonTheme)
+                Text("Cars").font(.footnote)
             }
         })
     }
@@ -99,13 +97,11 @@ struct ContentView: View {
         let buttonTheme = "🐶"
         return Button(action: {
             emojiTheme = buttonTheme
-            var shuffledEmojis = emojis[buttonTheme] ?? []
-            shuffledEmojis.shuffle()
-            emojis[emojiTheme] = shuffledEmojis
+            emojis[emojiTheme] = (emojis[buttonTheme] ?? []).shuffled()
         }, label: {
             VStack {
-                Text("Animals").font(.footnote)
                 Text(buttonTheme)
+                Text("Animals").font(.footnote)
             }
         })
     }
